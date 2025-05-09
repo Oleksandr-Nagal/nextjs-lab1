@@ -1,7 +1,7 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {
+const nextConfig = {      // для динамічної збірки закоментувати цей рядок
     output: 'export',
-    /* інші ваші конфігурації можуть бути тут */
+
 };
 
 module.exports = nextConfig;

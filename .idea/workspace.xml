@@ -5,16 +5,71 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="776cad83-ec3b-4304-af83-cfad9663519c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/nextjs-lab1/src/app/articles/[id]/page.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nextjs-lab1/src/app/articles/loading.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nextjs-lab1/src/app/components/FavoriteArticle.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nextjs-lab1/src/app/components/Navigation.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nextjs-lab1/src/app/components/Navigation.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nextjs-lab1/src/styles/_layout.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nextjs-lab1/src/styles/_mixins.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nextjs-lab1/src/styles/_typography.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nextjs-lab1/src/styles/_variables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nextjs-lab1/src/styles/globals.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nextjs-lab1/tailwind.config.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/nextjs-lab1/next.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/nextjs-lab1/next.config.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nextjs-lab1/out/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/nextjs-lab1/out/404.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nextjs-lab1/out/_next/static/chunks/4bd1b696-52a6696c08e3276c.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nextjs-lab1/out/_next/static/chunks/684-75fd5dfdef93026f.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nextjs-lab1/out/_next/static/chunks/874-8826d48c805a2f7c.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nextjs-lab1/out/_next/static/chunks/app/_not-found/page-5bfe245ad955586d.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nextjs-lab1/out/_next/static/chunks/app/articles/[id]/page-02a6508c58268097.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nextjs-lab1/out/_next/static/chunks/app/articles/create/page-388c857ceb1fbfcd.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nextjs-lab1/out/_next/static/chunks/app/articles/favorite/page-aa1c98e75807be9b.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nextjs-lab1/out/_next/static/chunks/app/articles/layout-99acedb17f9f2393.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nextjs-lab1/out/_next/static/chunks/app/articles/loading-f986562cfd970faa.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nextjs-lab1/out/_next/static/chunks/app/articles/page-b02f5c435a5eef64.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nextjs-lab1/out/_next/static/chunks/app/layout-226618cd00585c46.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nextjs-lab1/out/_next/static/chunks/app/page-9ae3339fd45f975f.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nextjs-lab1/out/_next/static/chunks/app/profile/security/page-07ebec0533313742.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nextjs-lab1/out/_next/static/chunks/app/profile/settings/page-7321f0f65524ca82.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nextjs-lab1/out/_next/static/chunks/webpack-75e90ec69d4ac2a5.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nextjs-lab1/out/_next/static/css/815df10fb6476abe.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nextjs-lab1/out/_next/static/jtQGqbXa90bu8LuaPoA-a/_buildManifest.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nextjs-lab1/out/_next/static/jtQGqbXa90bu8LuaPoA-a/_ssgManifest.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nextjs-lab1/out/articles.html" beforeDir="false" afterPath="$PROJECT_DIR$/nextjs-lab1/out/articles.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nextjs-lab1/out/articles.txt" beforeDir="false" afterPath="$PROJECT_DIR$/nextjs-lab1/out/articles.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nextjs-lab1/out/articles/1.html" beforeDir="false" afterPath="$PROJECT_DIR$/nextjs-lab1/out/articles/1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nextjs-lab1/out/articles/1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/nextjs-lab1/out/articles/1.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nextjs-lab1/out/articles/10.html" beforeDir="false" afterPath="$PROJECT_DIR$/nextjs-lab1/out/articles/10.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nextjs-lab1/out/articles/10.txt" beforeDir="false" afterPath="$PROJECT_DIR$/nextjs-lab1/out/articles/10.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nextjs-lab1/out/articles/2.html" beforeDir="false" afterPath="$PROJECT_DIR$/nextjs-lab1/out/articles/2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nextjs-lab1/out/articles/2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/nextjs-lab1/out/articles/2.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nextjs-lab1/out/articles/3.html" beforeDir="false" afterPath="$PROJECT_DIR$/nextjs-lab1/out/articles/3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nextjs-lab1/out/articles/3.txt" beforeDir="false" afterPath="$PROJECT_DIR$/nextjs-lab1/out/articles/3.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nextjs-lab1/out/articles/4.html" beforeDir="false" afterPath="$PROJECT_DIR$/nextjs-lab1/out/articles/4.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nextjs-lab1/out/articles/4.txt" beforeDir="false" afterPath="$PROJECT_DIR$/nextjs-lab1/out/articles/4.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nextjs-lab1/out/articles/5.html" beforeDir="false" afterPath="$PROJECT_DIR$/nextjs-lab1/out/articles/5.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nextjs-lab1/out/articles/5.txt" beforeDir="false" afterPath="$PROJECT_DIR$/nextjs-lab1/out/articles/5.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nextjs-lab1/out/articles/6.html" beforeDir="false" afterPath="$PROJECT_DIR$/nextjs-lab1/out/articles/6.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nextjs-lab1/out/articles/6.txt" beforeDir="false" afterPath="$PROJECT_DIR$/nextjs-lab1/out/articles/6.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nextjs-lab1/out/articles/7.html" beforeDir="false" afterPath="$PROJECT_DIR$/nextjs-lab1/out/articles/7.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nextjs-lab1/out/articles/7.txt" beforeDir="false" afterPath="$PROJECT_DIR$/nextjs-lab1/out/articles/7.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nextjs-lab1/out/articles/8.html" beforeDir="false" afterPath="$PROJECT_DIR$/nextjs-lab1/out/articles/8.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nextjs-lab1/out/articles/8.txt" beforeDir="false" afterPath="$PROJECT_DIR$/nextjs-lab1/out/articles/8.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nextjs-lab1/out/articles/9.html" beforeDir="false" afterPath="$PROJECT_DIR$/nextjs-lab1/out/articles/9.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nextjs-lab1/out/articles/9.txt" beforeDir="false" afterPath="$PROJECT_DIR$/nextjs-lab1/out/articles/9.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nextjs-lab1/out/articles/create.html" beforeDir="false" afterPath="$PROJECT_DIR$/nextjs-lab1/out/articles/create.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nextjs-lab1/out/articles/create.txt" beforeDir="false" afterPath="$PROJECT_DIR$/nextjs-lab1/out/articles/create.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nextjs-lab1/out/articles/favorite.html" beforeDir="false" afterPath="$PROJECT_DIR$/nextjs-lab1/out/articles/favorite.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nextjs-lab1/out/articles/favorite.txt" beforeDir="false" afterPath="$PROJECT_DIR$/nextjs-lab1/out/articles/favorite.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nextjs-lab1/out/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/nextjs-lab1/out/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nextjs-lab1/out/index.txt" beforeDir="false" afterPath="$PROJECT_DIR$/nextjs-lab1/out/index.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nextjs-lab1/out/profile/security.html" beforeDir="false" afterPath="$PROJECT_DIR$/nextjs-lab1/out/profile/security.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nextjs-lab1/out/profile/security.txt" beforeDir="false" afterPath="$PROJECT_DIR$/nextjs-lab1/out/profile/security.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nextjs-lab1/out/profile/settings.html" beforeDir="false" afterPath="$PROJECT_DIR$/nextjs-lab1/out/profile/settings.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nextjs-lab1/out/profile/settings.txt" beforeDir="false" afterPath="$PROJECT_DIR$/nextjs-lab1/out/profile/settings.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/nextjs-lab1/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/nextjs-lab1/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/nextjs-lab1/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/nextjs-lab1/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nextjs-lab1/src/app/articles/favorite/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/nextjs-lab1/src/app/articles/favorite/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nextjs-lab1/src/app/articles/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/nextjs-lab1/src/app/articles/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nextjs-lab1/src/app/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/nextjs-lab1/src/app/layout.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nextjs-lab1/src/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/nextjs-lab1/src/app/page.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,21 +91,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "D:/3 course ZTU/second semester/Next.JS/nextjs-lab1/src/app/articles/[id]",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "ts.external.directory.path": "D:\\3 course ZTU\\second semester\\Next.JS\\nextjs-lab1\\node_modules\\typescript\\lib",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/3 course ZTU/second semester/Next.JS/nextjs-lab1/src/app/articles/[id]&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;D:\\3 course ZTU\\second semester\\Next.JS\\nextjs-lab1\\node_modules\\typescript\\lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\3 course ZTU\second semester\Next.JS\nextjs-lab1\src\app\articles\[id]" />
@@ -72,7 +127,8 @@
       <option name="presentableId" value="Default" />
       <updated>1746789983405</updated>
       <workItem from="1746789984675" duration="17000" />
-      <workItem from="1746792921434" duration="1605000" />
+      <workItem from="1746792921434" duration="2828000" />
+      <workItem from="1746795798670" duration="1674000" />
     </task>
     <servers />
   </component>

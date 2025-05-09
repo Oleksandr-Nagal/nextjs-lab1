@@ -1,5 +1,6 @@
 // src/app/layout.tsx
 import './globals.css'
+import '../styles/globals.scss'
 import { Inter } from 'next/font/google'
 import Link from 'next/link'
 import { ReactNode } from 'react'

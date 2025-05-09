@@ -1,0 +1,20 @@
+@mixin flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@mixin horizontal-padding($padding) {
+  padding-left: $padding;
+  padding-right: $padding;
+}
+
+@mixin responsive-font($min, $max) {
+  font-size: clamp(#{$min}, 2vw, #{$max});
+}
+
+@mixin hide-mobile {
+  @media (max-width: 768px) {
+    display: none !important;
+  }
+}
